@@ -6,10 +6,10 @@ They're built for accessibility testers and front-end developers who do hands-on
 
 **Design principles**
 
-- **Read-only and non-destructive.** Tools highlight, annotate, and report. They never transmit data anywhere and make no network calls.
-- **Nothing runs until you ask.** Each tool adds a small **launcher button** in the bottom-right corner. Click it to open the tool; click again (or use the panel's **Close** button / `Esc`) to remove it. Event-based tools (focus log, ARIA hover) stay off until activated and never hijack native keyboard navigation.
-- **The tools are themselves accessible.** Each panel is a labelled ARIA dialog with real form labels, visible focus styles, keyboard support, and high-contrast colors.
-- **Consistent.** All scripts share one UI pattern, versioning (1.1.0), and an MIT license.
+- **Read-only and safe.** The tools highlight, label, and report. They never send data anywhere and make no network calls.
+- **Nothing runs until you ask.** Each tool adds a small **launcher button** in the bottom-right corner. Click it to open the tool; click again (or use **Close** / `Esc`) to remove it. The two that watch for activity — the focus log and ARIA hover — stay off until you switch them on, and they never take over your keyboard.
+- **The tools are accessible themselves.** Each panel is a labelled dialog with real form labels, clear focus outlines, keyboard support, and high-contrast colors.
+- **Consistent.** Every script shares one look, one version number (1.1.0), and an MIT license.
 
 ## Install
 
